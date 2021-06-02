@@ -19,7 +19,8 @@ module.exports = {
       "/node_modules/(?!MODULE_NAME_HERE).+\\.js$"
     ],
     moduleNameMapper: {
-      '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+      // '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     },
     verbose: true
   }
