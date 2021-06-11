@@ -6,7 +6,7 @@
 
 import axiosInstance from 'interceptor/interceptor';
 
-/** 
+/**
  * @param {string} route <Route Name>
  * @return {object} <Returns promise (Axios Response)>
  */
@@ -47,7 +47,7 @@ function patch(route, data) {
  * @param {object} data <Create or Update object>
  * @return {object} <Returns promise (Axios Response)>
  */
-function save(route, id, data) {  
+function save(route, id, data) {
   if (id === 'new') {
     return post(route, data);
   }
