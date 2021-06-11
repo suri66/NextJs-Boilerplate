@@ -6,9 +6,9 @@
 
 import { ToastContainer } from 'react-toastify';
 import PropTypes from 'prop-types';
-import Header from 'components/core/Header/Header';
-import Footer from 'components/core/Footer/Footer';
-import NextHead from 'components/core/NextHead/NextHead';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import NextHead from '../NextHead/NextHead';
 
 const AppLayout = ({ children }) => (
   <div>
