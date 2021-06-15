@@ -13,6 +13,9 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "autoprefixer": "^10.2.6",
     "axios": "^0.21.1",
     "next": "10.2.3",
     "prop-types": "^15.7.2",
