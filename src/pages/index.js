@@ -5,7 +5,6 @@ import { getFakeData } from 'redux/app';
 const Home = () => {
   const content = useSelector((state) => state.app.data);
   const dispatch = useDispatch();
-console.log(content);
   return (
     <div className="my-2">
       Home Page
