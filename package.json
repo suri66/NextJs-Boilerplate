@@ -15,7 +15,6 @@
   "dependencies": {
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
-    "autoprefixer": "^10.2.6",
     "axios": "^0.21.1",
     "next": "10.2.3",
     "prop-types": "^15.7.2",
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
+    "autoprefixer": "^10.2.6",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.2",
     "enzyme": "^3.11.0",
