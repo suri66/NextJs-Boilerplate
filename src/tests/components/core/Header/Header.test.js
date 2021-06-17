@@ -7,6 +7,6 @@ describe('Header Component', () => {
   it('should render without crashing', () => {
     const wrapper = shallow(<Header  />);
 
-    expect(wrapper.find('div')).toHaveLength(1);
+    expect(wrapper.find('Popover')).toHaveLength(1);
   });
 });
