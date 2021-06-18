@@ -1,3 +1,9 @@
+/**
+ * @name redux/app.js
+ * @description app reducer
+ * @version 0.0.0
+ */
+
 import { getAll } from '../services/httpService';
 
 const initialState = {
