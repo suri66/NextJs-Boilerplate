@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src/**/*.{js,jsx} -c .eslintrc.js --ext js,jsx",
-    "lint:fix": "eslint src/**/*.{js,jsx} -c .eslintrc.js --fix --ext js,jsx",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx} --fix",
     "docs": "jsdoc -c jsdoc.conf.json",
     "test": "jest",
     "test:coverage": "jest --coverage"
@@ -33,7 +33,7 @@
     "babel-jest": "^27.0.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "eslint": "^7.27.0",
+    "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
@@ -47,6 +47,7 @@
     "jsdoc": "~3.6.7",
     "jsdom-global": "^3.0.2",
     "postcss": "^8.3.4",
+    "prettier": "^2.3.2",
     "tailwindcss": "^2.1.4"
   }
 }
