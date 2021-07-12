@@ -1,17 +1,19 @@
-import { Component } from 'react';
 import PropTypes from 'prop-types';
-class Button extends Component {
-    render() {
-        const { type, className='button-icon', children } = this.props;
-        return(
-            <button
-                type={type}
-                className={'group relative ' +className}
-            >{children}</button>
-        )
-    }
-}
+
+const Button = ({ type, className, children }) => (
+  <button type={type === 'submit' ? 'submit' : 'button'} className={`group relative ${className}`}>
+    {children}
+  </button>
+);
+
 Button.propTypes = {
-    type: PropTypes.elementType.isRequired,
+  type: PropTypes.string.isRequired,
+  children: PropTypes.elementType.isRequired,
+  className: PropTypes.string,
 };
+
+Button.defaultProps = {
+  className: 'button-icon',
+};
+
 export default Button;

@@ -4,6 +4,7 @@ import { getFakeData } from 'redux/app';
 
 const Home = () => {
   const content = useSelector((state) => state.app.data);
+  console.log(content);
   const dispatch = useDispatch();
   return (
     <div className="my-2">

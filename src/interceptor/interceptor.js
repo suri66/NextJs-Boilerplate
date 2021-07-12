@@ -31,7 +31,7 @@ axiosInstance.interceptors.response.use(
     // toast(error.response && error.response.data && error.response.data.error, 'error');
     showToast(error && error.message, 'error'); // modify according to API
     return false;
-  },
+  }
 );
 
 export default axiosInstance;
